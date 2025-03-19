@@ -10,8 +10,7 @@ class GetStartedButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return TextButton(onPressed: (){ 
-         
+    return TextButton(onPressed: (){
       context.pushedNamed(Routers.loginScreen);
     },
     style: ButtonStyle(

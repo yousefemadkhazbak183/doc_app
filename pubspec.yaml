@@ -54,6 +54,11 @@ dependencies:
   # Flutter Localization.
   intl: ^0.20.2
   flutter_localization: ^0.3.1
+  # An SVG rendering and widget library for Flutter, which allows painting and displaying.
+  flutter_svg: ^2.0.17
+  # A flutter plugin for adapting screen and font size.Guaranteed to look good on different models.
+  flutter_screenutil: ^5.9.3
+
 
 dev_dependencies:
   flutter_test:
@@ -81,10 +86,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
-
+  assets:
+   - assets/images/
+   - assets/svg/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 
