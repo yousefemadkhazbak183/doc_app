@@ -1,4 +1,6 @@
 {
     "cmake.ignoreCMakeListsMissing": true,
-    "editor.acceptSuggestionOnEnter": "on"
+    "editor.acceptSuggestionOnEnter": "on",
+    
+    
 }
