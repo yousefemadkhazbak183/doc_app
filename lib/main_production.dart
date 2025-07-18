@@ -7,7 +7,12 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 //production
 void main() async{
   setUpGitIt();
+
   // This Line is used to fix texts being hidden font bug in flutter_screenutil in release mode.
+
+  // This Line is used to fix texts being hidden,
+  // font bug in flutter_screenutil in release mode.
+
   await ScreenUtil.ensureScreenSize();
   runApp(DocApp(appRouter: AppRouter()));
 }
